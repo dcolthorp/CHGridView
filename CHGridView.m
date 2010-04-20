@@ -295,6 +295,7 @@
 	[visibleTiles makeObjectsPerformSelector:@selector(removeFromSuperview)];
 	[visibleSectionHeaders makeObjectsPerformSelector:@selector(removeFromSuperview)];
 	[reusableTiles makeObjectsPerformSelector:@selector(removeFromSuperview)];
+  selectedTile = nil;
 }
 
 #pragma mark tiles accessor methods
